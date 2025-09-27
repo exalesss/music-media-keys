@@ -18,9 +18,15 @@
 
 ## 🚀 Installation
 
+### Option 1: Easy Launch (Recommended)
 1. Download this repository
 2. Run `Start.bat` to start the script
-3. The script runs in background - close the window when done
+3. The script runs in background - window closes automatically
+
+### Option 2: Direct Launch
+1. Download this repository
+2. Double-click `Spotify_Controller.ahk` to run directly
+3. The script starts immediately
 
 ## 📋 Requirements
 
@@ -60,9 +66,15 @@
 
 ## 🚀 Установка
 
+### Вариант 1: Простой запуск (Рекомендуется)
 1. Скачайте этот репозиторий
 2. Запустите файл `Start.bat`
-3. Скрипт запустится в фоне - закройте окно когда закончится
+3. Скрипт запустится в фоне - окно закроется автоматически
+
+### Вариант 2: Прямой запуск
+1. Скачайте этот репозиторий
+2. Двойной клик по `Spotify_Controller.ahk` для прямого запуска
+3. Скрипт запустится сразу
 
 ## 📋 Требования
 
