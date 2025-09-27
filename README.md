@@ -2,11 +2,15 @@
 
 **Control Spotify music using your keyboard's media keys (Fn+F6/F7/F8) even when Spotify is minimized!**
 
+*Keywords: spotify hotkeys, spotify minimized control, spotify background music, spotify gaming, media keys spotify, spotify keyboard shortcuts, spotify minimized playback*
+
 ## ✨ Features
 
 - 🎮 **Works in any application** - Control Spotify while gaming or working
 - 🚫 **Blocks media keys from games** - Prevents games from detecting F6/F7/F8
 - ⚡ **Zero interference** - No window activation, completely background operation
+- 🎵 **Spotify minimized control** - Switch tracks without opening Spotify
+- ⌨️ **Keyboard media keys** - Use Fn+F6/F7/F8 to control music
 
 ## 🎹 Controls
 
@@ -50,11 +54,15 @@
 
 **Управляйте музыкой в Spotify с помощью медиа-клавиш (Fn+F6/F7/F8) даже когда Spotify свернут!**
 
+*Ключевые слова: спотифай горячие клавиши, спотифай свёрнутый режим, спотифай фоновая музыка, спотифай игры, медиа клавиши спотифай, спотифай клавиатура, спотифай минимизированный*
+
 ## ✨ Возможности
 
 - 🎮 **Работает в любом приложении** - Управляйте Spotify во время игр или работы
 - 🚫 **Блокирует медиа-клавиши от игр** - Игры не видят нажатия F6/F7/F8
 - ⚡ **Без помех** - Никаких активаций окон, полностью фоновый режим
+- 🎵 **Управление свёрнутым Spotify** - Переключайте треки не открывая Spotify
+- ⌨️ **Клавиатурные медиа-клавиши** - Используйте Fn+F6/F7/F8 для управления музыкой
 
 ## 🎹 Управление
 
