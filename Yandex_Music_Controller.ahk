@@ -2,14 +2,14 @@
 #SingleInstance Force
 
 ; ========================================
-; Spotify Media Keys Controller
-; Controls Spotify using keyboard media keys
+; Yandex Music Media Keys Controller
+; Controls Yandex Music using keyboard media keys
 ; ========================================
 
 Media_Prev:: {
     ; Previous Track
     try {
-        SendMessage(0x319, 0, 0x0C0000, , "ahk_exe Spotify.exe")
+        SendMessage(0x319, 0, 0x0C0000, , "ahk_exe Яндекс Музыка.exe")
     } catch {
         SendMessage(0x319, 0, 0x0C0000)
     }
@@ -19,7 +19,7 @@ Media_Prev:: {
 Media_Play_Pause:: {
     ; Play/Pause
     try {
-        SendMessage(0x319, 0, 0x0E0000, , "ahk_exe Spotify.exe")
+        SendMessage(0x319, 0, 0x0E0000, , "ahk_exe Яндекс Музыка.exe")
     } catch {
         SendMessage(0x319, 0, 0x0E0000)
     }
@@ -29,7 +29,7 @@ Media_Play_Pause:: {
 Media_Next:: {
     ; Next Track
     try {
-        SendMessage(0x319, 0, 0x0B0000, , "ahk_exe Spotify.exe")
+        SendMessage(0x319, 0, 0x0B0000, , "ahk_exe Яндекс Музыка.exe")
     } catch {
         SendMessage(0x319, 0, 0x0B0000)
     }
@@ -48,4 +48,3 @@ Volume_Down:: {
 Volume_Mute:: {
     Send "{Volume_Mute}"
 }
-

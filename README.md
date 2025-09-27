@@ -1,16 +1,14 @@
-# 🎵 Spotify Media Keys Controller
+# 🎵 Music Media Keys Controller
 
-**Control Spotify music using your keyboard's media keys (Fn+F6/F7/F8) even when Spotify is minimized!**
+**Control Spotify and Yandex Music using your keyboard's media keys (Fn+F6/F7/F8) even when minimized!**
 
-*Keywords: spotify hotkeys, spotify minimized control, spotify background music, spotify gaming, media keys spotify, spotify keyboard shortcuts, spotify minimized playback*
+*Keywords: spotify hotkeys, spotify minimized control, spotify background music, spotify gaming, media keys spotify, spotify keyboard shortcuts, spotify minimized playback, yandex music control, yandex music hotkeys, music control gaming, media keys controller, autohotkey music, background music control, gaming music control, spotify yandex music, media keys gaming*
 
 ## ✨ Features
 
-- 🎮 **Works in any application** - Control Spotify while gaming or working
+- 🎮 **Works in any application** - Control music while gaming or working
 - 🚫 **Blocks media keys from games** - Prevents games from detecting F6/F7/F8
-- ⚡ **Zero interference** - No window activation, completely background operation
-- 🎵 **Spotify minimized control** - Switch tracks without opening Spotify
-- ⌨️ **Keyboard media keys** - Use Fn+F6/F7/F8 to control music
+- ⚡ **Background operation** - No window activation, completely silent
 
 ## 🎹 Controls
 
@@ -22,7 +20,7 @@
 
 ## 🚀 Installation
 
-### Option 1: Easy Launch (Recommended)
+### Option 1: Easy Launch
 1. Download this repository
 2. Run `Start.bat` to start the script
 3. The script runs in background - window closes automatically
@@ -35,34 +33,44 @@
 ## 📋 Requirements
 
 - Windows 10/11
-- AutoHotkey v2.0 (included)
-- Spotify Desktop App
+- AutoHotkey v2.0
+- Spotify or Yandex Music Desktop App
 
 ## ⚠️ Compatibility Note
 
-**This script may not work on all systems.** Media key behavior varies between different keyboard models, laptop manufacturers, and system configurations. The script was tested and works on specific hardware setups, but compatibility cannot be guaranteed for all users.
+**This script should work on most Windows systems.** If you encounter issues, please report them in the feedback section.
+
+## 🔧 How It Works
+
+Uses Windows Media Session API to send commands directly to music applications. If app-specific commands fail, falls back to global media commands.
 
 ## 💬 Feedback
 
 **Please share your experience!** Whether the script works for you or not, your feedback helps improve compatibility and understand which systems work best. Leave a comment or create an issue to report your results.
 
+## 🎵 Supported Music Services
+
+- ✅ **Spotify** - Use `Spotify_Controller.ahk` or `Start.bat` (No notifications)
+- ✅ **Yandex Music** - Use `Yandex_Music_Controller.ahk` or `Start_Yandex.bat` (Shows notifications)
+
+**Note:** Yandex Music shows Windows notifications because the app itself doesn't suppress them - this is how the program works, not a script setting.
+
+
 ---
 
-*Finally, proper background Spotify control for gamers!*
+*Finally, proper background music control for gamers! Works with Spotify and Yandex Music.*
 
-# 🎵 Контроллер медиа-клавиш Spotify
+# 🎵 Контроллер медиа-клавиш для музыки
 
-**Управляйте музыкой в Spotify с помощью медиа-клавиш (Fn+F6/F7/F8) даже когда Spotify свернут!**
+**Управляйте музыкой в Spotify и Яндекс Музыке с помощью медиа-клавиш (Fn+F6/F7/F8) даже когда приложения свернуты!**
 
-*Ключевые слова: спотифай горячие клавиши, спотифай свёрнутый режим, спотифай фоновая музыка, спотифай игры, медиа клавиши спотифай, спотифай клавиатура, спотифай минимизированный*
+*Ключевые слова: спотифай горячие клавиши, спотифай свёрнутый режим, спотифай фоновая музыка, спотифай игры, медиа клавиши спотифай, спотифай клавиатура, спотифай минимизированный, яндекс музыка управление, яндекс музыка горячие клавиши, управление музыкой в играх, медиа клавиши контроллер, автоХоткей музыка, фоновая музыка, музыка в играх, спотифай яндекс музыка, медиа клавиши игры*
 
 ## ✨ Возможности
 
-- 🎮 **Работает в любом приложении** - Управляйте Spotify во время игр или работы
+- 🎮 **Работает в любом приложении** - Управляйте музыкой во время игр или работы
 - 🚫 **Блокирует медиа-клавиши от игр** - Игры не видят нажатия F6/F7/F8
-- ⚡ **Без помех** - Никаких активаций окон, полностью фоновый режим
-- 🎵 **Управление свёрнутым Spotify** - Переключайте треки не открывая Spotify
-- ⌨️ **Клавиатурные медиа-клавиши** - Используйте Fn+F6/F7/F8 для управления музыкой
+- ⚡ **Фоновый режим** - Никаких активаций окон, полностью тихо
 
 ## 🎹 Управление
 
@@ -74,7 +82,7 @@
 
 ## 🚀 Установка
 
-### Вариант 1: Простой запуск (Рекомендуется)
+### Вариант 1: Простой запуск
 1. Скачайте этот репозиторий
 2. Запустите файл `Start.bat`
 3. Скрипт запустится в фоне - окно закроется автоматически
@@ -87,17 +95,29 @@
 ## 📋 Требования
 
 - Windows 10/11
-- AutoHotkey v2.0 (включен)
-- Spotify Desktop App
+- AutoHotkey v2.0
+- Spotify или Яндекс Музыка Desktop App
 
 ## ⚠️ Замечание о совместимости
 
-**Скрипт может не работать на всех системах.** Поведение медиа-клавиш различается в зависимости от модели клавиатуры, производителя ноутбука и конфигурации системы. Скрипт был протестирован и работает на конкретных аппаратных конфигурациях, но совместимость не может быть гарантирована для всех пользователей.
+**Скрипт должен работать на большинстве Windows систем.** Если возникнут проблемы, сообщите об этом в разделе обратной связи.
+
+## 🔧 Как это работает
+
+Использует Windows Media Session API для отправки команд напрямую в музыкальные приложения. Если команды для приложения не работают, используются глобальные медиа-команды.
 
 ## 💬 Обратная связь
 
 **Поделитесь своим опытом!** Независимо от того, работает ли скрипт у вас или нет, ваш отзыв поможет улучшить совместимость и понять, на каких системах всё работает лучше всего. Оставьте комментарий или создайте issue, чтобы сообщить о своих результатах.
 
+## 🎵 Поддерживаемые музыкальные сервисы
+
+- ✅ **Spotify** - Используйте `Spotify_Controller.ahk` или `Start.bat` (Без уведомлений)
+- ✅ **Яндекс Музыка** - Используйте `Yandex_Music_Controller.ahk` или `Start_Yandex.bat` (Показывает уведомления)
+
+**Примечание:** Яндекс Музыка показывает уведомления Windows, потому что сама программа их не отключает - это особенность приложения, а не настройка скрипта.
+
+
 ---
 
-*Наконец-то нормальное фоновое управление Spotify для геймеров!*
+*Наконец-то, нормальное управление фоновой музыкой для геймеров! Работает со Spotify и Яндекс Музыкой.*
