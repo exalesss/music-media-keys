@@ -2,6 +2,10 @@
 
 **Control Spotify and Yandex Music using your keyboard's media keys (Fn+F6/F7/F8) even when minimized!**
 
+> **🇷🇺 Русскоязычным пользователям:** Внизу этого README находится полная русская версия с инструкциями на русском языке.
+> 
+> **📖 Please read the entire README** for complete setup instructions and troubleshooting information.
+
 *Keywords: spotify hotkeys, spotify minimized control, spotify background music, spotify gaming, media keys spotify, spotify keyboard shortcuts, spotify minimized playback, yandex music control, yandex music hotkeys, music control gaming, media keys controller, autohotkey music, background music control, gaming music control, spotify yandex music, media keys gaming*
 
 ## ✨ Features
@@ -22,12 +26,12 @@
 
 ### Option 1: Easy Launch
 1. Download this repository
-2. Run `Start.bat` to start the script
+2. Run `Start.bat` (for Spotify) or `Start_Yandex.bat` (for Yandex Music)
 3. The script runs in background - window closes automatically
 
 ### Option 2: Direct Launch
 1. Download this repository
-2. Double-click `Spotify_Controller.ahk` to run directly
+2. Double-click `Spotify_Controller.ahk` (for Spotify) or `Yandex_Music_Controller.ahk` (for Yandex Music)
 3. The script starts immediately
 
 ## 📋 Requirements
@@ -35,6 +39,15 @@
 - Windows 10/11
 - AutoHotkey v2.0
 - Spotify or Yandex Music Desktop App
+
+## 📥 Installing AutoHotkey
+
+**AutoHotkey v2.0 is required for the script to work**
+
+### Download and install:
+1. **Go to**: [https://github.com/AutoHotkey/AutoHotkey/releases](https://github.com/AutoHotkey/AutoHotkey/releases)
+2. **Download latest version** (`AutoHotkey_2.0.x_setup.exe`)
+3. **Run installer as administrator** → **Follow instructions** → **Done!**
 
 ## ⚠️ Compatibility Note
 
@@ -60,6 +73,8 @@ Uses Windows Media Session API to send commands directly to music applications. 
 
 *Finally, proper background music control for gamers! Works with Spotify and Yandex Music.*
 
+---
+
 # 🎵 Контроллер медиа-клавиш для музыки
 
 **Управляйте музыкой в Spotify и Яндекс Музыке с помощью медиа-клавиш (Fn+F6/F7/F8) даже когда приложения свернуты!**
@@ -84,12 +99,12 @@ Uses Windows Media Session API to send commands directly to music applications. 
 
 ### Вариант 1: Простой запуск
 1. Скачайте этот репозиторий
-2. Запустите файл `Start.bat`
+2. Запустите файл `Start.bat` (для Spotify) или `Start_Yandex.bat` (для Яндекс Музыки)
 3. Скрипт запустится в фоне - окно закроется автоматически
 
 ### Вариант 2: Прямой запуск
 1. Скачайте этот репозиторий
-2. Двойной клик по `Spotify_Controller.ahk` для прямого запуска
+2. Двойной клик по `Spotify_Controller.ahk` (для Spotify) или `Yandex_Music_Controller.ahk` (для Яндекс Музыки)
 3. Скрипт запустится сразу
 
 ## 📋 Требования
@@ -97,6 +112,15 @@ Uses Windows Media Session API to send commands directly to music applications. 
 - Windows 10/11
 - AutoHotkey v2.0
 - Spotify или Яндекс Музыка Desktop App
+
+## 📥 Установка AutoHotkey
+
+**Для работы скрипта необходимо установить AutoHotkey v2.0**
+
+### Скачать и установить:
+1. **Перейдите на**: [https://github.com/AutoHotkey/AutoHotkey/releases](https://github.com/AutoHotkey/AutoHotkey/releases)
+2. **Скачайте последнюю версию** (`AutoHotkey_2.0.x_setup.exe`)
+3. **Запустите от имени администратора** → **Следуйте инструкциям** → **Готово!**
 
 ## ⚠️ Замечание о совместимости
 
