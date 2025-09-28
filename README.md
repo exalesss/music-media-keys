@@ -6,7 +6,6 @@
 > 
 > **📖 Please read the entire README** for complete setup instructions and troubleshooting information.
 
-*Keywords: spotify hotkeys, spotify minimized control, spotify background music, spotify gaming, media keys spotify, spotify keyboard shortcuts, spotify minimized playback, yandex music control, yandex music hotkeys, music control gaming, media keys controller, autohotkey music, background music control, gaming music control, spotify yandex music, media keys gaming*
 
 ## ✨ Features
 
@@ -26,7 +25,7 @@
 
 ### Option 1: Easy Launch
 1. Download this repository
-2. Run `Start.bat` (for Spotify) or `Start_Yandex.bat` (for Yandex Music)
+2. Run `Start_Spotify.bat` (for Spotify) or `Start_Yandex.bat` (for Yandex Music)
 3. The script runs in background - window closes automatically
 
 ### Option 2: Direct Launch
@@ -49,9 +48,11 @@
 2. **Download latest version** (`AutoHotkey_2.0.x_setup.exe`)
 3. **Run installer as administrator** → **Follow instructions** → **Done!**
 
-## ⚠️ Compatibility Note
+## ⚠️ Important Notes
 
-**This script should work on most Windows systems.** If you encounter issues, please report them in the feedback section.
+**Browser Compatibility:** Yandex Browser may conflict with media key blocking. If you experience issues with media keys being detected by Yandex Browser, try using Chrome, Firefox, or Edge for video content.
+
+**Notifications:** Yandex Music shows Windows notifications when controlled via media keys - this is a built-in feature of the app itself, not a script setting. Spotify works without notifications.
 
 ## 🔧 How It Works
 
@@ -63,10 +64,8 @@ Uses Windows Media Session API to send commands directly to music applications. 
 
 ## 🎵 Supported Music Services
 
-- ✅ **Spotify** - Use `Spotify_Controller.ahk` or `Start.bat` (No notifications)
+- ✅ **Spotify** - Use `Spotify_Controller.ahk` or `Start_Spotify.bat` (No notifications)
 - ✅ **Yandex Music** - Use `Yandex_Music_Controller.ahk` or `Start_Yandex.bat` (Shows notifications)
-
-**Note:** Yandex Music shows Windows notifications because the app itself doesn't suppress them - this is how the program works, not a script setting.
 
 
 ---
@@ -75,11 +74,13 @@ Uses Windows Media Session API to send commands directly to music applications. 
 
 ---
 
+
+---
+
 # 🎵 Контроллер медиа-клавиш для музыки
 
 **Управляйте музыкой в Spotify и Яндекс Музыке с помощью медиа-клавиш (Fn+F6/F7/F8) даже когда приложения свернуты!**
 
-*Ключевые слова: спотифай горячие клавиши, спотифай свёрнутый режим, спотифай фоновая музыка, спотифай игры, медиа клавиши спотифай, спотифай клавиатура, спотифай минимизированный, яндекс музыка управление, яндекс музыка горячие клавиши, управление музыкой в играх, медиа клавиши контроллер, автоХоткей музыка, фоновая музыка, музыка в играх, спотифай яндекс музыка, медиа клавиши игры*
 
 ## ✨ Возможности
 
@@ -99,7 +100,7 @@ Uses Windows Media Session API to send commands directly to music applications. 
 
 ### Вариант 1: Простой запуск
 1. Скачайте этот репозиторий
-2. Запустите файл `Start.bat` (для Spotify) или `Start_Yandex.bat` (для Яндекс Музыки)
+2. Запустите файл `Start_Spotify.bat` (для Spotify) или `Start_Yandex.bat` (для Яндекс Музыки)
 3. Скрипт запустится в фоне - окно закроется автоматически
 
 ### Вариант 2: Прямой запуск
@@ -122,9 +123,11 @@ Uses Windows Media Session API to send commands directly to music applications. 
 2. **Скачайте последнюю версию** (`AutoHotkey_2.0.x_setup.exe`)
 3. **Запустите от имени администратора** → **Следуйте инструкциям** → **Готово!**
 
-## ⚠️ Замечание о совместимости
+## ⚠️ Важные замечания
 
-**Скрипт должен работать на большинстве Windows систем.** Если возникнут проблемы, сообщите об этом в разделе обратной связи.
+**Совместимость браузеров:** Яндекс Браузер может конфликтовать с блокировкой медиа-клавиш. Если медиа-клавиши определяются Яндекс Браузером, попробуйте использовать Chrome, Firefox или Edge для просмотра видео.
+
+**Уведомления:** Яндекс Музыка показывает уведомления Windows при управлении медиа-клавишами - это встроенная функция самого приложения, а не настройка скрипта. Spotify работает без уведомлений.
 
 ## 🔧 Как это работает
 
@@ -136,12 +139,18 @@ Uses Windows Media Session API to send commands directly to music applications. 
 
 ## 🎵 Поддерживаемые музыкальные сервисы
 
-- ✅ **Spotify** - Используйте `Spotify_Controller.ahk` или `Start.bat` (Без уведомлений)
+- ✅ **Spotify** - Используйте `Spotify_Controller.ahk` или `Start_Spotify.bat` (Без уведомлений)
 - ✅ **Яндекс Музыка** - Используйте `Yandex_Music_Controller.ahk` или `Start_Yandex.bat` (Показывает уведомления)
-
-**Примечание:** Яндекс Музыка показывает уведомления Windows, потому что сама программа их не отключает - это особенность приложения, а не настройка скрипта.
 
 
 ---
 
 *Наконец-то, нормальное управление фоновой музыкой для геймеров! Работает со Spotify и Яндекс Музыкой.*
+
+---
+
+## 🔍 Keywords / Ключевые слова
+
+**[EN]** *spotify hotkeys, how to control spotify with fn keys, spotify fn f6 f7 f8, spotify media keys, spotify minimized control, spotify background music, spotify gaming, spotify keyboard shortcuts, spotify minimized playback, yandex music control, yandex music hotkeys, yandex music fn keys, yandex music fn f6 f7 f8, how to control yandex music with fn keys, yandex music media keys, music control gaming, media keys controller, autohotkey music, background music control, gaming music control, spotify yandex music, media keys gaming, how to switch music in spotify with keyboard, how to switch music in yandex music with keyboard, spotify hotkey setup, yandex music hotkey setup*
+
+**[RU]** *спотифай горячие клавиши, как управлять спотифай fn клавишами, спотифай fn f6 f7 f8, спотифай медиа клавиши, спотифай свёрнутый режим, спотифай фоновая музыка, спотифай игры, спотифай клавиатура, спотифай минимизированный, яндекс музыка управление, яндекс музыка горячие клавиши, яндекс музыка fn клавиши, яндекс музыка fn f6 f7 f8, как управлять яндекс музыкой fn клавишами, яндекс музыка медиа клавиши, управление музыкой в играх, медиа клавиши контроллер, автоХоткей музыка, фоновая музыка, музыка в играх, спотифай яндекс музыка, медиа клавиши игры, как переключать музыку в спотифай клавиатурой, как переключать музыку в яндекс музыке клавиатурой, настройка горячих клавиш спотифай, настройка горячих клавиш яндекс музыка*
