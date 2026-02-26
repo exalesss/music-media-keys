@@ -101,4 +101,3 @@ See the repository for license information.
 ### Лицензия
 
 Информация о лицензии — в репозитории.
-Uploading README.md…]()
